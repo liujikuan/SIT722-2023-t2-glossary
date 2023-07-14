@@ -1,0 +1,23 @@
+{
+  "name": "sit722",
+  "version": "1.0.0",
+  "description": "for assignments",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liujikuan/SIT722-Software-Deployment-And-Operation.git"
+  },
+  "author": "jikuan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liujikuan/SIT722-Software-Deployment-And-Operation/issues"
+  },
+  "homepage": "https://github.com/liujikuan/SIT722-Software-Deployment-And-Operation#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "table": "^6.8.1"
+  }
+}
