@@ -35,7 +35,17 @@ router.get('/', function(req, res, next) {
         ['27','Containerisation','a technology of encapsulating applications and its dependencies into one container to make it able to run in various platforms','OpenAI. "what is the term "Containerisation" in DevOps field?" OpenAI ChatGPT, 2023, chat.openai.com.'],
         ['28','Kubernetes','a container orchestration tool used to automate management of containers','OpenAI. "what is the term "Kubernetes" in DevOps field?" OpenAI ChatGPT, 2023, chat.openai.com.'],
         ['29','provisioning','setting up IT infrastructure to make it ready to use','OpenAI. "what is the term "provisioning" in DevOps field?" OpenAI ChatGPT, 2023, chat.openai.com.'],
-        ['30','lightweight','describing software which are easy to build, setup, and maintain; or, using less resources','OpenAI. "what is the term "lightweight" in DevOps field?" OpenAI ChatGPT, 2023, chat.openai.com.']
+        ['30','lightweight','describing software which are easy to build, setup, and maintain; or, using less resources','OpenAI. "what is the term "lightweight" in DevOps field?" OpenAI ChatGPT, 2023, chat.openai.com.'],
+        ['31','Sharding','a database architecture technique where data is partitioned into different replicas which are stored on their respective servers','OpenAI. "what is the term "Sharding" in DevOps field?" OpenAI ChatGPT, 2023, chat.openai.com.'],
+        ['32','Redundancy','Multiple replicas of one sharding to encure high availability','OpenAI. "what is the term "Redundancy" in DevOps field?" OpenAI ChatGPT, 2023, chat.openai.com.'],
+        ['33','Pod','containing one or more containers, Pod a is process running a server, providing universal namespaces','OpenAI. "what is the term "Pod" in DevOps field?" OpenAI ChatGPT, 2023, chat.openai.com.'],
+        ['34','singletons','a design pattern that only one instance can be sourced from the class','OpenAI. "what is the term "singletons" in DevOps field?" OpenAI ChatGPT, 2023, chat.openai.com.'],
+        ['35','stateless applications','never retain any session information','OpenAI. "what is the term "stateless applications" in container orchestration field?" OpenAI ChatGPT, 2023, chat.openai.com.'],
+        ['36','ReplicaSet','a object that ensures a specified number of pod replicas are retained','OpenAI. "what is the term "" in DevOps field?" OpenAI ChatGPT, 2023, chat.openai.com.'],
+        ['37','orchestrate','automatically manage the lifecycle of containers and coordinate them','OpenAI. "what is the term "orchestrate" in DevOps field?" OpenAI ChatGPT, 2023, chat.openai.com.'],
+        ['38','Bootstrapping','self-starting process that can proceed without external input','OpenAI. "what is the term "Bootstrapping" in DevOps field?" OpenAI ChatGPT, 2023, chat.openai.com.'],
+        ['39','stateful application','can retain data or state after interruption','OpenAI. "what is the term "container orchestration" in DevOps field?" OpenAI ChatGPT, 2023, chat.openai.com.'],
+        ['40','Declarative Configuration','describing the desired state rather than steps which are automatically figured out','OpenAI. "what is the term "Declarative Configuration" in DevOps field?" OpenAI ChatGPT, 2023, chat.openai.com.']
     ];
 
     res.render('index', { data });
