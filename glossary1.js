@@ -45,7 +45,17 @@ router.get('/', function(req, res, next) {
         ['37','orchestrate','automatically manage the lifecycle of containers and coordinate them','OpenAI. "what is the term "orchestrate" in DevOps field?" OpenAI ChatGPT, 2023, chat.openai.com.'],
         ['38','Bootstrapping','self-starting process that can proceed without external input','OpenAI. "what is the term "Bootstrapping" in DevOps field?" OpenAI ChatGPT, 2023, chat.openai.com.'],
         ['39','stateful application','can retain data or state after interruption','OpenAI. "what is the term "container orchestration" in DevOps field?" OpenAI ChatGPT, 2023, chat.openai.com.'],
-        ['40','Declarative Configuration','describing the desired state rather than steps which are automatically figured out','OpenAI. "what is the term "Declarative Configuration" in DevOps field?" OpenAI ChatGPT, 2023, chat.openai.com.']
+        ['40','Declarative Configuration','describing the desired state rather than steps which are automatically figured out','OpenAI. "what is the term "Declarative Configuration" in DevOps field?" OpenAI ChatGPT, 2023, chat.openai.com.'],
+        ['41','null_resource','a resource type that does nothing unless a certain action is triggered','OpenAI. "what is the term "null_resource" in Terraform field?" OpenAI ChatGPT, 2023, chat.openai.com.'],
+        ['42','prototyping','creating a preliminary or simplified version of your infrastructure code before deploying it in a production environment','OpenAI. "what is the term "prototyping" in Infrastructure as Code field?" OpenAI ChatGPT, 2023, chat.openai.com.'],
+        ['43','service principal','a security identity used by applications, services, or resources to authenticate and interact with cloud services and resources','OpenAI. "what is service principal in cloud platforms field?" OpenAI ChatGPT, 2023, chat.openai.com.'],
+        ['44','azurerm','manage Azure resources such as virtual machines, storage accounts, and networking interfaces','TomArcherMsft, “Overview of Terraform on Azure - What is Terraform?,” Microsoft.com, Apr. 19, 2022. https://learn.microsoft.com/en-us/azure/developer/terraform/overview (accessed Sep. 22, 2023).'],
+        ['45','HashiCorp Configuration Language','a domain-specific language for defining infrastructure as code','OpenAI. "what is the term "HCL" in terraform area?" OpenAI ChatGPT, 2023, chat.openai.com.'],
+        ['46','terraform state','a representation of the present state of the provisioned and managed resources using Terraform','OpenAI. "what is terraform state" OpenAI ChatGPT, 2023, chat.openai.com.'],
+        ['47','blob','binary large objects or data used to store unstructured data such as image','OpenAI. "what is Blob in cloud platform storage systems?" OpenAI ChatGPT, 2023, chat.openai.com.'],
+        ['48','kubectl','a command-line tool used for interacting with Kubernetes clusters and facilitate managing and controlling K8s resources and operations','OpenAI. "what is kubectl?" OpenAI ChatGPT, 2023, chat.openai.com.'],
+        ['49','Namespace','A virtual cluster providing a level of isolation, resource sharing, and management scope for Kubernetes resources inside a physical cluster ','OpenAI. "what is Namespace in k8s?" OpenAI ChatGPT, 2023, chat.openai.com.'],
+        ['50','Kubeconfig','a configuration file used to specify details about how to connect to a Kubernetes cluster including the API server and authentication information','OpenAI. "what is Kubeconfig in k8s?" OpenAI ChatGPT, 2023, chat.openai.com.']
     ];
 
     res.render('index', { data });
